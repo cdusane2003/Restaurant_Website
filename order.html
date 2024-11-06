@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Order - Restaurant</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+      <h1>Master Chef</h1>
+      <img src="images/logo.png" alt="Restaurant Logo" class="logo" />
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="order.html">Order</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+  <!-- Order Form -->
+  <div class="container">
+    <h2>Place Your Order</h2>
+    <form id="orderForm">
+      <div class="alert">Order received!</div>
+      <input type="text" id="customerName" placeholder="Your Name" required />
+      <input type="email" id="customerEmail" placeholder="Your Email" required />
+      <input type="tel" id="customerPhone" placeholder="Your Phone Number" required />
+      <textarea id="orderDetails" placeholder="Order Details" rows="5" required></textarea>
+      <button type="submit">Submit Order</button>
+    </form>
+  </div>
+
+  <footer>
+    &copy; 2024 Restaurant Name. All Rights Reserved.
+  </footer>
+</body>
+</html>
